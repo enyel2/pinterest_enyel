@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :pins
   get 'welcome/index'
 
   #Ruta para dejar como pag inicial
